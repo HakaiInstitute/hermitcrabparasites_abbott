@@ -16,15 +16,15 @@ Data and code is available at https://github.com/HakaiInstitute/hermitcrabparasi
 
 Data Folder - all data used in project
 
-    Distribution Data Folder- data recorded during prevalence surveys, and latitude and longitudes of occurrences for each species of parasite
+Distribution Data Folder- data recorded during prevalence surveys, and latitude and longitudes of occurrences for each species of parasite
 
-    Sup Data Folder- data from the supplementary information 
+Sup Data Folder- data from the supplementary information 
 
-    Thermal Data Folder- data from the thermal metabolic experiment, including metabolic rate data and survival data 
+Thermal Data Folder- data from the thermal metabolic experiment, including metabolic rate data and survival data 
 
-        oxygen measurements folder- contains raw oxygen consumption data in textfiles from the FireSting grouped by temperature increment and whether it is a            control, also contains a csv of the recorded masses and calculated volumes for water in the vial
+oxygen measurements folder- contains raw oxygen consumption data in textfiles from the FireSting grouped by temperature increment and whether it is a            control, also contains a csv of the recorded masses and calculated volumes for water in the vial
 
-        temperature monitoring folder- contains the temperature records for each trial as measured by thermocouple, labeled by date of trial
+temperature monitoring folder- contains the temperature records for each trial as measured by thermocouple, labeled by date of trial
 
 Scripts Folder- all scripts used in project
 

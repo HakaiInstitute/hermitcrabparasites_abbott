@@ -1,1 +1,110 @@
-variable,long_name,units,standard_name,comment
+variable,units,Decription,Dataset
+site,NA,Location where crabs were surveyed,Prevalence_surveys.csv
+date,YYYY-MM-DD,Day crabs were surveyed,Prevalence_surveys.csv
+researcher,NA,Researcher who collected the data,Prevalence_surveys.csv
+salinity,PPT,"Salinity of site, collected at 10cm depth",Prevalence_surveys.csv
+density,Count average,The number of hermit crabs collected per 5 minute search on average per site,Prevalence_surveys.csv
+shore_type,NA,Inland or open coast site,Prevalence_surveys.csv
+year,YYYY,Year of survey,Prevalence_surveys.csv
+search,Count,Number ,Prevalence_surveys.csv
+rhizo,Presence absence,Whether a hermit crab had a rhizocephalan externa of peltogaster sp. ,Prevalence_surveys.csv
+liriopsis,Presence absence,Whether a hermit crab had a liriopsis pygamea parasitizing its peltogaster external,Prevalence_surveys.csv
+gill_isopod,Presence absence,Whether a hermit crab had a bulging carapace with Eremitione giardi parasitizing,Prevalence_surveys.csv
+ovigerous,Presence absence,Whether a hermit crab was carrying eggs,Prevalence_surveys.csv
+colonial_rhizo,Presence absence,Whether a hermit crab had a rhizocephalan externa of peltogaterella sp. ,Prevalence_surveys.csv
+2nd_dactyl,mm,The measurement of the hermit crabs left 2nd dactyl,Prevalence_surveys.csv
+spp,,The species of host,Prevalence_surveys.csv
+shell_type,,Species of shell,Prevalence_surveys.csv
+broken,,Whether the shell is broken,Prevalence_surveys.csv
+shell_length,mm,Shell length of hermit crab,Prevalence_surveys.csv
+shell_width,mm,Shell width of hermit crab,Prevalence_surveys.csv
+shell_opening,mm,Shell opening of hermit crab,Prevalence_surveys.csv
+date_my_format,DD-MM-YYYY,Date as written ,Prevalence_surveys.csv
+note,,Any important notes on the hermit crab,Prevalence_surveys.csv
+lat, Decimal Degrees ,Latitude of site,Prevalence_surveys.csv
+long, Decimal Degrees ,Longitude of site,Prevalence_surveys.csv
+region,,Lower mainland or Vancouver Island,hermit_crab_data_sep_1_2023 - seasonal+island (3).csv
+,,All others same as above for this dataset,hermit_crab_data_sep_1_2023 - seasonal+island (3).csv
+prev.rhizo,%,Prevalence of Peltogaster paguri,peltogaster_paguri_lit_review.csv
+prev.lirio,%,Prevalence of Liriopsis,peltogaster_paguri_lit_review.csv
+n.host,Count,total number of hosts counted,peltogaster_paguri_lit_review.csv
+n.rhizo,Count,total number of hosts with Peltogaster paguri infection,peltogaster_paguri_lit_review.csv
+n.rhizo.double,count,number of hosts with a double infection,peltogaster_paguri_lit_review.csv
+n.rhizo.lirio,count,total number of hosts with Peltogaster paguri and Liriopsis infection,peltogaster_paguri_lit_review.csv
+no.uninfected,count,total number of hosts without any parasite infections,peltogaster_paguri_lit_review.csv
+rhizo.genus,,The genus of the rhizocepahalan,peltogaster_paguri_lit_review.csv
+rhizo.sp,,species of the rhizocephalan,peltogaster_paguri_lit_review.csv
+host.gen,,The genus of the host,peltogaster_paguri_lit_review.csv
+host.sp,,The species of the host,peltogaster_paguri_lit_review.csv
+site.name,,The provided site name for the observation (one per observation),peltogaster_paguri_lit_review.csv
+month,MM,The month the observation was done in (if provided),peltogaster_paguri_lit_review.csv
+year,YYYY,"The year the observation was done in or the first year if there is a range of years, if no year reported fill in the year of publication",peltogaster_paguri_lit_review.csv
+year.range,YYYY-YYYY,the range of years surveyed,peltogaster_paguri_lit_review.csv
+lat,"decimal degree format, DDD.DDDDD°",The latitude for the location provided - use google earth if none provided,peltogaster_paguri_lit_review.csv
+long,"decimal degree format, DDD.DDDDD°",The longitude for the location provided,peltogaster_paguri_lit_review.csv
+state/province,,"If in North America, provide the state/province of the observation",peltogaster_paguri_lit_review.csv
+country,,The country the observation was made in,peltogaster_paguri_lit_review.csv
+env.var1,,"If the study devided sites into categories, provide that here (e.g. exposed vs sheltered sites)",peltogaster_paguri_lit_review.csv
+env.var2,,"If the study devided sites into categories, provide that here (e.g. exposed vs sheltered sites)",peltogaster_paguri_lit_review.csv
+ref.type,,What kind of study was being done? Is it an ecology paper (looking at prevalence) or a taxonomy paper (describing species),peltogaster_paguri_lit_review.csv
+notes,,any extra notes that aren't accounted for in the columns,peltogaster_paguri_lit_review.csv
+reference,,Provide the full reference here,peltogaster_paguri_lit_review.csv
+Individual,,The individuals unique identifying # ,sup_moult.csv
+Date end,YYYY-MM-DD,Day where monitoring ends or moult occurs,sup_moult.csv
+Time,Days,Days since monitoring began,sup_moult.csv
+moult,Presence absence,"Whether a hermit crab moulted, 1=yes 0=no",sup_moult.csv
+Group,,Whether a hermit crab was infected or uninfected,sup_moult.csv
+Individual,,The individuals unique identifying # ,sup_survival.csv
+Date end,,Day where monitoring ends or death occurs,sup_survival.csv
+Time,Days,Days since monitoring began,sup_survival.csv
+Census,Presence absence,"Whether a hermit crab died, 1=yes 0=no",sup_survival.csv
+Group,,Whether a hermit crab was infected or uninfected,sup_survival.csv
+trial,count,Trial # of heat ramp experiment,volume_weight_vialcrabs.csv
+date,,Day of heat ramp experiment,volume_weight_vialcrabs.csv
+position,,"whether a vial was in position A, B, C, D. In water bath",volume_weight_vialcrabs.csv
+full_vial_w/crab,Grams,Mass of full vial,volume_weight_vialcrabs.csv
+shell+crab,Grams,Mass of shell and crab,volume_weight_vialcrabs.csv
+dry_vial+contents,Grams,Mass of dry vial and mesh,volume_weight_vialcrabs.csv
+crab_vol_ml,ml,Volume of water in with each crab,volume_weight_vialcrabs.csv
+full_vial_w/o crab,Grams,Mass of full vial no crab,volume_weight_vialcrabs.csv
+control_vol,ml,Volume of water in control,volume_weight_vialcrabs.csv
+Individual,,The individuals unique identifying # ,crabsurvival.csv
+date,,Date not each crabs heat ramp experiment ,crabsurvival.csv
+date end,,End monitoring or death of crab,crabsurvival.csv
+time,Days,Days since monitoring began,crabsurvival.csv
+round_time,Days,Time rounded to week,crabsurvival.csv
+death,Presence absence,Whether death occurred 1=yes 0=no,crabsurvival.csv
+group,,"Whether a hermit crab was infected, formerly ovigerous, or nonovigerous",crabsurvival.csv
+groups_ simplified ,,Same as group but combines formerly ovigerous and nonovigerous,crabsurvival.csv
+individual,,The individuals unique identifying # ,lab_crabs_summer_2021_metrate.csv
+date,,Date each crabs heat ramp experiment ,lab_crabs_summer_2021_metrate.csv
+FS_channel,,Channel corresponding to oxygen measurements on the foresting,lab_crabs_summer_2021_metrate.csv
+trial,,Trial number of heat ramp,lab_crabs_summer_2021_metrate.csv
+bath_location,,"Location in bath, A, B, C, D",lab_crabs_summer_2021_metrate.csv
+temp_increment,°C,"Temperature increment of measurement 12, 17, 22, 27, 32 °C",lab_crabs_summer_2021_metrate.csv
+group,,"Whether a crab was infected, nonovgierous, or formerly ovigerous",lab_crabs_summer_2021_metrate.csv
+groups_simplified,,Same as above but groups nonovigerous and formerly ovigerous together ,lab_crabs_summer_2021_metrate.csv
+externa_length,mm,Length of external if present,lab_crabs_summer_2021_metrate.csv
+externa_width,mm,Width of external if present,lab_crabs_summer_2021_metrate.csv
+externa_colour,,Color of externa if present,lab_crabs_summer_2021_metrate.csv
+starvation_date,,When crab was left without food,lab_crabs_summer_2021_metrate.csv
+starv_time,Days,Time crab was left without food,lab_crabs_summer_2021_metrate.csv
+crab_biomass,Grams,Mass of crab (wet weight) after experiment,lab_crabs_summer_2021_metrate.csv
+dactyl,mm,Length of the 2nd dactyl of the hermit crab ,lab_crabs_summer_2021_metrate.csv
+shell_type,,Species of shell,lab_crabs_summer_2021_metrate.csv
+shell_height,mm,Height of shell,lab_crabs_summer_2021_metrate.csv
+crab_water_volume_ml,ml,"Volume of water in with crab, in ml",lab_crabs_summer_2021_metrate.csv
+crab_water_volume_L,Liters,"Volume of water in with crab, in liters",lab_crabs_summer_2021_metrate.csv
+control_water_ml,ml,"Volume of water in vial without crab, in ml",lab_crabs_summer_2021_metrate.csv
+control_water_L,Liters,"Volume of water in vial without crab, in liters",lab_crabs_summer_2021_metrate.csv
+crab_slope_raw,Micromol/s *L,The raw oxygen slope calculated from the textiles for the crab ,lab_crabs_summer_2021_metrate.csv
+temperature,°C,The temperature recorded by the firesting,lab_crabs_summer_2021_metrate.csv
+control_slope_raw,Micromol/s *L,The raw slope calculated from the textiles for the vial without the crab,lab_crabs_summer_2021_metrate.csv
+crab_slope_vol_corrected,Micromol/s,Raw slope multiples by water volume with crab,lab_crabs_summer_2021_metrate.csv
+control_slope_volume_corrected,Micromol/s,raw slope multiplied by water volume without crab,lab_crabs_summer_2021_metrate.csv
+drift_corrected,Micromol/s,"Correcting for the oxygen consumed in the control vial,Crab slope - control slope ",lab_crabs_summer_2021_metrate.csv
+met_rate_raw,Micromol/s*g,Drift corrected slope divided by biomass,lab_crabs_summer_2021_metrate.csv
+met_rate,nmol/s*g,"Met rate raw *-1 to make positive, and multiplied by 1000 to convert to nmol to make it easier to use",lab_crabs_summer_2021_metrate.csv
+log_met_rate,nmol/s*g,Log of the metabolic rate,lab_crabs_summer_2021_metrate.csv
+experiment_survival,,Whether the crab survived the experiment yes or no,lab_crabs_summer_2021_metrate.csv
+24_hour_survival,,"Whether the crab survived 24 Hours (or other noted time) after the experiment, yes or no, ",lab_crabs_summer_2021_metrate.csv

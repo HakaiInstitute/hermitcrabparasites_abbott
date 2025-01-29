@@ -12,6 +12,23 @@ This dataset contains data and code used in the manuscript “Distribution and d
 Data and code is available at https://github.com/HakaiInstitute/hermitcrabparasites_abbott (Abbott et al. 2025).
 ```
 
+## Repository Data Structure
+
+Data Folder - all data used in project
+
+    Distribution Data Folder- data recorded during prevalence surveys, and latitude and longitudes of occurrences for each species of parasite
+
+    Sup Data Folder- data from the supplementary information 
+
+    Thermal Data Folder- data from the thermal metabolic experiment, including metabolic rate data and survival data 
+
+        oxygen measurements folder- contains raw oxygen consumption data in textfiles from the FireSting grouped by temperature increment and whether it is a            control, also contains a csv of the recorded masses and calculated volumes for water in the vial
+
+        temperature monitoring folder- contains the temperature records foreach trial as measured by thermocouple, labeled by date of trial
+
+Scripts Folder- all scripts used in project
+
+
 ## Methods
 For more detailed methods information:
 see publication "Parasites of the hermit crab Pagurus hirsutiusculus; distribution, prevalence, and thermal ecology "
